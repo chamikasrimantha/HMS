@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Arogya Health Care | Book</title>
+
+    <link rel="stylesheet" href="book.css">
+    <link rel="shortcut icon" href="../assets/images/fav.jpg">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+
+    <style>
+        .rt{
+            height: 1050px;
+        }
+        .rtt{
+            margin-top: -40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 left-item">
+                        <ul>
+                            <li><i class="fas fa-envelope-square"></i> arogya@healthcare.com</li>
+                            <li><i class="fas fa-phone-square"></i> +94 77 100 2020</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block right-item">
+                        <ul>
+                            <li><a><i class="fab fa-github"></i></a></li>
+                            <li><a><i class="fab fa-google-plus-g"></i></a></li>
+                            <li> <a><i class="fab fa-instagram"></i></a></li>
+                            <li><a><i class="fab fa-twitter"></i></a></li>
+                            <li> <a><i class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="nav-head" class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 no-padding col-sm-12 nav-img">
+                        <p style="padding-top: 22px; font-size: 23px; margin-left: -20px; color: blue;"><strong>Arogya Health Care</strong></p>
+                       <a data-toggle="collapse" data-target="#menu" href="#menu" ><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block nav-item">
+                        <ul>
+                            <li><a href="../home/home.html">Home</a></li>
+                            <li><a href="../aboutus/aboutus.html">About Us</a></li>
+                            <li><a href="../services/services.html">Services</a></li>
+                            <li><a href="../contactus/contactus.html">Contact Us</a></li>
+                            <li><a href="../wardsinfo/wardsinfo.php">Wards Info</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 d-none d-lg-block appoint">
+                        <button onclick="window.location.href='../book/book.html';" type="button" class="btn btn-info">Book an Appointment</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="slider-detail rt">
+        <div class="rtt">
+        <form action="insert.php" class="form" method="post" name="login">
+            <h1 class="login-title">Book an Appointment</h1>
+            <label class="lbl1">Your Name</label><br>
+            <input type="text" class="login-input" name="name" placeholder="Your Name" autofocus="true" />
+            <label class="lbl1">Your Address</label><br>   
+            <input type="text" class="login-input" name="address" placeholder="Your Address" />
+            <label class="lbl1">Your Phone No</label><br>   
+            <input type="number" class="login-input" name="phoneno" placeholder="Your Phone No" /><br>
+            <label class="lbl1">Your Gender</label><br>
+            <select style="margin-bottom: 25px; width: calc(100% - 23px); border: 1px solid #ccc;" name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label class="lbl1">Your Email</label><br>
+            <input type="text" class="login-input" name="email" placeholder="Your Email" />
+            <label class="lbl1">Preferred Appointment Date / Time</label><br>
+            <input type="datetime-local" class="login-input" name="time" placeholder="Staff's Name" />
+            <label class="lbl1">Which department would you like to get an appointment from?
+            </label>
+            <select style="margin-bottom: 25px; width: calc(100% - 23px); border: 1px solid #ccc;" name="department">
+                <option value="Heart">Heart</option>
+                <option value="Mental">Mental</option>
+            </select>
+            <label class="lbl1">Which procedure do you want to make an appointment for?</label>
+            <select style="margin-bottom: 25px; width: calc(100% - 23px); border: 1px solid #ccc;" name="procedure">
+                <option value="Medical Examination">Medical Examination</option>
+                <option value="Doctor Check">Doctor Check</option>
+                <option value="Result Analysis">Result Analysis</option>
+                <option value="Check-Up">Check-Up</option>
+            </select>
+            <label class="lbl1">Note :</label>
+            <input type="text" class="login-input" name="note" placeholder="Note" />
+            <input type="submit" value="Submit" name="submit" class="login-button" />
+        </form>
+    </div>
+    </div>
+    <footer class="fcve copy">
+        <div class="container">
+            <a class="fcve1">Arogya Health Care</a>
+            <span>
+                <p class="fcve2">3 De Fonseka Pl, Colombo 00400</p>
+            </span>
+        </div>
+    </footer>
+
+    <div class="copy">
+        <div class="container">
+            <a href="https://chamika-srimantha.me">2023 &copy; All Rights Reserved | Designed and Developed by
+                Apex Design Works</a>
+
+            <span>
+                <a><i class="fab fa-github"></i></a>
+                <a><i class="fab fa-google-plus-g"></i></a>
+                <a><i class="fab fa-pinterest-p"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-facebook-f"></i></a>
+            </span>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: poppins;
+}
+
+body {
+    background: #3e4144;
+}
+
+.form {
+    margin: 100px auto;
+    width: 900px;
+    padding: 10px 20px;
+    background: white;
+}
+
+.form1 {
+    margin: 100px auto;
+    width: 450px;
+    padding: 10px 20px;
+    background: white;
+    margin-left: 15px;
+}
+
+.form2 {
+    margin: 50px auto;
+    width: 450px;
+    padding: 10px 20px;
+    background: white;
+    margin-left: 525px;
+    margin-top: -475px;
+}
+
+.form3 {
+    width: 960px;
+    padding: 10px 20px;
+    background: white;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+h1.login-title {
+    color: #666;
+    margin: 0px auto 20px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 10px;
+    width: calc(100% - 23px);
+}
+
+.login-input:focus {
+    border-color: #6e8095;
+    outline: none;
+}
+
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.link a {
+    color: #666;
+}
+
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #30475e;
+    color: white;
+    padding: 20px 0;
+    background-color: #30475e;
+    height: 100%;
+    overflow: auto;
+}
+
+.a1 {
+    color: white;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.hello {
+    font-weight: 550;
+    font-style: 15px;
+    color: white;
+    background-color: #30475e;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: gray;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    background-color: gray;
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: white;
+    color: black;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1500px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.wdd {
+    height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wdd1 {
+    background-color: #30475e;
+    height: 50px;
+}
+
+.wdd2 {
+    margin: 0;
+    padding: 0;
+    background-color: #30475e;
+    height: 70px;
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    margin-left: -17px;
+    margin-top: -2px;
+}
+
+.pp1 {
+    color: white;
+    margin-top: -22px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+
+.pp2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.pp3 {
+    color: white;
+    padding-top: 22px;
+    margin-left: 650px;
+    font-size: 20px;
+}
+
+table {
+    margin-top: 20px;
+    font-family: poppins;
+    border-collapse: collapse;
+    width: 97%;
+    margin-left: 15px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #55a1ff;
+    color: white;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.ddd1 {
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+}
